@@ -8,12 +8,13 @@ email: jake.rains@lemniq.com
 twitter_username: genaialien
 
 # Build settings
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 markdown: kramdown
 highlighter: rouge
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 
