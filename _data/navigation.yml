@@ -1,0 +1,23 @@
+main:
+  - title: "🏠 Home"
+    url: /
+  - title: "🧠 AI Models"
+    url: /ai-models/
+  - title: "🛠️ Tools"
+    url: /tools/
+  - title: "📖 Resources"
+    url: /resources/
+  - title: "🧪 Experiments"
+    url: /experiments/
+  - title: "💬 Prompts"
+    url: /prompts/
+  - title: "🎭 System Prompts"
+    url: /system-prompts/
+  - title: "🎨 Creative AI"
+    url: /creative-ai/
+  - title: "📊 Datasets"
+    url: /datasets/
+  - title: "🔗 Links"
+    url: /awesome-links/
+  - title: "👽 Insights"
+    url: /alien-insights/

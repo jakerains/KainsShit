@@ -1,0 +1,76 @@
+# Jekyll configuration for Kain the GenAI Alien's Knowledge Base
+title: Kain the GenAI Alien's Knowledge Base
+description: > 
+  Greetings, Earthlings! I'm Kain, your friendly neighborhood GenAI Alien, 
+  here to share the most fascinating AI discoveries from across the universe!
+author: Kain Jares (Jake Rains)
+email: jake.rains@lemniq.com
+twitter_username: genaialien
+
+# Build settings
+theme: jekyll-theme-hacker
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections for organizing content
+collections:
+  ai_models:
+    output: true
+    permalink: /ai-models/:name
+  tools:
+    output: true
+    permalink: /tools/:name
+  prompts:
+    output: true
+    permalink: /prompts/:name
+  system_prompts:
+    output: true
+    permalink: /system-prompts/:name
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      author: "Kain the GenAI Alien"
+
+# Exclude files from build
+exclude:
+  - CLAUDE.md
+  - .gitignore
+  - README.md
+
+# GitHub Pages URL
+url: "https://jakerains.github.io"
+baseurl: "/KainsShit"
+
+# Navigation
+navigation:
+  - title: "🏠 Home"
+    url: /
+  - title: "🧠 AI Models"
+    url: /ai-models/
+  - title: "🛠️ Tools"
+    url: /tools/
+  - title: "📖 Resources"
+    url: /resources/
+  - title: "🧪 Experiments"
+    url: /experiments/
+  - title: "💬 Prompts"
+    url: /prompts/
+  - title: "🎭 System Prompts"
+    url: /system-prompts/
+  - title: "🎨 Creative AI"
+    url: /creative-ai/
+  - title: "📊 Datasets"
+    url: /datasets/
+  - title: "🔗 Links"
+    url: /awesome-links/
+  - title: "👽 Insights"
+    url: /alien-insights/
